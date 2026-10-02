@@ -69,8 +69,7 @@
       "MATH 227"
     ],
     "verified": false,
-    "coreqs": [],
-    "notes": "Source note said 'PHYS && MATH 227'; assumed PHYS 220. Verify."
+    "coreqs": []
   },
   "PHYS 232": {
     "title": "General Physics with Calculus II Laboratory",
