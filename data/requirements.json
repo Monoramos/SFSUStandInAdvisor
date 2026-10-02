@@ -1,0 +1,35 @@
+{
+  "major": "Computer Science BS",
+  "school": "San Francisco State University",
+  "catalog_year": "2026-2027",
+  "source": "SFSU Bulletin, CS BS requirements (https://bulletin.sfsu.edu/colleges/science-engineering/computer-science/bs-computer-science/#degreerequirementstext)",
+  "date_checked": "TODO",
+  "verified": false,
+  "groups": [
+    {
+      "name": "Mathematics and Physics",
+      "type": "all_of",
+      "units": 22,
+      "courses": ["MATH 225", "MATH 226", "MATH 227", "MATH 324", "PHYS 220", "PHYS 222", "PHYS 230", "PHYS 232"]
+    },
+    {
+      "name": "Core Computer Science",
+      "type": "all_of",
+      "units": 28,
+      "courses": ["CSC 101", "CSC 215", "CSC 220", "CSC 230", "CSC 256", "CSC 300GW", "CSC 317", "CSC 340", "CSC 413"]
+    },
+    {
+      "name": "Advanced Computer Science",
+      "type": "all_of",
+      "units": 9,
+      "courses": ["CSC 415", "CSC 510", "CSC 648"]
+    },
+    {
+      "name": "Electives",
+      "type": "units_from",
+      "units": 15,
+      "courses": [],
+      "note": "elective list pending"
+    }
+  ]
+}

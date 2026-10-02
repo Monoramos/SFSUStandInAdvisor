@@ -1,0 +1,186 @@
+{
+  "MATH 225": {
+    "title": "Introduction to Linear Algebra",
+    "units": 3,
+    "prereqs": null,
+    "verified": false
+  },
+  "MATH 226": {
+    "title": "Calculus I",
+    "units": 4,
+    "prereqs": null,
+    "verified": false
+  },
+  "MATH 227": {
+    "title": "Calculus II",
+    "units": 4,
+    "prereqs": null,
+    "verified": false
+  },
+  "MATH 324": {
+    "title": "Probability and Statistics with Computing",
+    "units": 3,
+    "prereqs": null,
+    "verified": false
+  },
+  "PHYS 220": {
+    "title": "General Physics with Calculus I",
+    "units": 3,
+    "prereqs": null,
+    "verified": false
+  },
+  "PHYS 222": {
+    "title": "General Physics with Calculus I Laboratory",
+    "units": 1,
+    "prereqs": null,
+    "verified": false
+  },
+  "PHYS 230": {
+    "title": "General Physics with Calculus II",
+    "units": 3,
+    "prereqs": null,
+    "verified": false
+  },
+  "PHYS 232": {
+    "title": "General Physics with Calculus II Laboratory",
+    "units": 1,
+    "prereqs": null,
+    "verified": false
+  },
+  "CSC 101": {
+    "title": "Introduction to Computing",
+    "units": 3,
+    "prereqs": [],
+    "verified": false,
+    "coreqs": []
+  },
+  "CSC 215": {
+    "title": "Intermediate Computer Programming",
+    "units": 4,
+    "prereqs": [
+      "CSC 101"
+    ],
+    "verified": false,
+    "coreqs": []
+  },
+  "CSC 220": {
+    "title": "Data Structures",
+    "units": 3,
+    "prereqs": [
+      [
+        "CSC 210",
+        "CSC 215"
+      ]
+    ],
+    "verified": false,
+    "coreqs": []
+  },
+  "CSC 230": {
+    "title": "Discrete Mathematical Structures for Computer Science",
+    "units": 3,
+    "prereqs": [
+      [
+        "CSC 210",
+        "CSC 215",
+        "ENGR 213"
+      ]
+    ],
+    "verified": false,
+    "coreqs": [
+      "MATH 227"
+    ]
+  },
+  "CSC 256": {
+    "title": "Machine Structures",
+    "units": 3,
+    "prereqs": [
+      "CSC 230"
+    ],
+    "verified": false,
+    "coreqs": []
+  },
+  "CSC 300GW": {
+    "title": "Ethics, Communication, and Tools for Software Development - GWAR",
+    "units": 3,
+    "prereqs": [],
+    "verified": false,
+    "coreqs": []
+  },
+  "CSC 317": {
+    "title": "Introduction to Web Software Development",
+    "units": 3,
+    "prereqs": [
+      "CSC 220"
+    ],
+    "verified": false,
+    "coreqs": []
+  },
+  "CSC 340": {
+    "title": "Programming Methodology",
+    "units": 3,
+    "prereqs": [
+      "CSC 220",
+      "CSC 230"
+    ],
+    "verified": false,
+    "coreqs": []
+  },
+  "CSC 413": {
+    "title": "Software Development",
+    "units": 3,
+    "prereqs": [
+      "CSC 220",
+      "CSC 317"
+    ],
+    "verified": false,
+    "coreqs": []
+  },
+  "CSC 415": {
+    "title": "Operating System Principles",
+    "units": 3,
+    "prereqs": [
+      "CSC 256",
+      "CSC 340",
+      "MATH 324",
+      "PHYS 230"
+    ],
+    "verified": false,
+    "coreqs": []
+  },
+  "CSC 510": {
+    "title": "Analysis of Algorithms I",
+    "units": 3,
+    "prereqs": [
+      "CSC 340",
+      "MATH 324"
+    ],
+    "verified": false,
+    "coreqs": []
+  },
+  "CSC 648": {
+    "title": "Software Engineering",
+    "units": 3,
+    "prereqs": [
+      "CSC 317",
+      "CSC 413"
+    ],
+    "verified": false,
+    "coreqs": []
+  },
+  "CSC 210": {
+    "title": null,
+    "units": null,
+    "prereqs": null,
+    "coreqs": [],
+    "in_major": false,
+    "verified": false
+  },
+  "ENGR 213": {
+    "title": null,
+    "units": null,
+    "prereqs": null,
+    "coreqs": [],
+    "in_major": false,
+    "verified": false
+  }
+}
