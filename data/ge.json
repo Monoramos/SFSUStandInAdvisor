@@ -1,0 +1,31 @@
+{
+  "pattern": "SFSU GE as published (confirm how transfer GE certification applies)",
+  "catalog_year": "2026-2027",
+  "source": "SFSU Bulletin, General Education Requirements (add URL)",
+  "date_checked": "TODO",
+  "verified": false,
+  "areas": [
+    {"id": "1A", "name": "English Composition", "level": "LD", "units": 3},
+    {"id": "1B", "name": "Critical Thinking", "level": "LD", "units": 3},
+    {"id": "1C", "name": "Oral Communication", "level": "LD", "units": 3},
+    {"id": "2", "name": "Mathematical Concepts and Quantitative Reasoning", "level": "LD", "units": 3},
+    {"id": "3A", "name": "Arts", "level": "LD", "units": 3},
+    {"id": "3B", "name": "Humanities", "level": "LD", "units": 3},
+    {"id": "4", "name": "Social and Behavioral Sciences", "level": "LD", "units": 6, "note": "Also fulfills USH"},
+    {"id": "5A", "name": "Physical Science", "level": "LD", "units": 3},
+    {"id": "5B", "name": "Biological Science", "level": "LD", "units": 3},
+    {"id": "5C", "name": "Laboratory", "level": "LD", "units": 1},
+    {"id": "6", "name": "Ethnic Studies", "level": "LD or UD", "units": 3},
+    {"id": "5UD_or_2UD", "name": "Science or Math/Quantitative Reasoning", "level": "UD", "units": 3},
+    {"id": "3UD", "name": "Arts or Humanities", "level": "UD", "units": 3},
+    {"id": "4UD", "name": "Social and Behavioral Sciences", "level": "UD", "units": 3}
+  ],
+  "overlays": [
+    {"group": "SF State Studies", "id": "AERM", "name": "American Ethnic and Racial Minorities", "level": "LD or UD", "units": 3},
+    {"group": "SF State Studies", "id": "ESCA", "name": "Environmental Sustainability and Climate Action", "level": "LD or UD", "units": 3},
+    {"group": "SF State Studies", "id": "GP", "name": "Global Perspectives", "level": "LD or UD", "units": 3},
+    {"group": "SF State Studies", "id": "SJ", "name": "Social Justice", "level": "LD or UD", "units": 3},
+    {"group": "American Institutions", "id": "USG/CSLG", "name": "US and California Government", "level": "LD or UD", "units": 3}
+  ],
+  "overlay_note": "Overlay courses may also count toward GE, the major, a minor, or electives, so they add no extra units when double-counted."
+}
