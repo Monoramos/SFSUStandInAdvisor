@@ -1,0 +1,20 @@
+{
+  "source_school": "TODO (copy from the ASSIST agreement header)",
+  "target_school": "San Francisco State University",
+  "major": "Computer Science BS",
+  "agreement_year": "TODO",
+  "source": "ASSIST.org agreement (add URL)",
+  "date_checked": "TODO",
+  "verified": false,
+  "maps": [
+    {"from_any": ["MATH C2210"], "to": ["MATH 226"]},
+    {"from_any": ["MATH C2220"], "to": ["MATH 227"]},
+    {"from_any": ["PHY 4A"], "to": ["PHYS 220", "PHYS 222"]},
+    {"from_any": ["PHY 4B"], "to": ["PHYS 230", "PHYS 232"]},
+    {"from_any": ["CSC 18A", "CIS 18A"], "to": ["CSC 101"]},
+    {"from_any": ["CSC 18C", "CIS 18C"], "to": ["CSC 220"]},
+    {"from_any": ["CSC 7", "CIS 7"], "to": ["CSC 230"]},
+    {"from_any": ["CSC 11", "CIS 11"], "to": ["CSC 256"]}
+  ],
+  "not_articulated": ["MATH 225", "MATH 324", "CSC 215"]
+}

@@ -2,50 +2,84 @@
   "MATH 225": {
     "title": "Introduction to Linear Algebra",
     "units": 3,
-    "prereqs": null,
-    "verified": false
+    "prereqs": [
+      [
+        "MATH 198",
+        "MATH 199",
+        "MATH 226"
+      ]
+    ],
+    "verified": false,
+    "coreqs": []
   },
   "MATH 226": {
     "title": "Calculus I",
     "units": 4,
-    "prereqs": null,
-    "verified": false
+    "prereqs": [
+      [
+        "MATH 198",
+        "MATH 199"
+      ]
+    ],
+    "verified": false,
+    "coreqs": [],
+    "notes": "Prereq also met by completing an articulated equivalent at another college"
   },
   "MATH 227": {
     "title": "Calculus II",
     "units": 4,
-    "prereqs": null,
-    "verified": false
+    "prereqs": [
+      "MATH 226"
+    ],
+    "verified": false,
+    "coreqs": []
   },
   "MATH 324": {
     "title": "Probability and Statistics with Computing",
     "units": 3,
-    "prereqs": null,
-    "verified": false
+    "prereqs": [
+      "MATH 227"
+    ],
+    "verified": false,
+    "coreqs": []
   },
   "PHYS 220": {
     "title": "General Physics with Calculus I",
     "units": 3,
-    "prereqs": null,
-    "verified": false
+    "prereqs": [
+      "MATH 226"
+    ],
+    "verified": false,
+    "coreqs": []
   },
   "PHYS 222": {
     "title": "General Physics with Calculus I Laboratory",
     "units": 1,
-    "prereqs": null,
-    "verified": false
+    "prereqs": [],
+    "verified": false,
+    "coreqs": [
+      "PHYS 220"
+    ]
   },
   "PHYS 230": {
     "title": "General Physics with Calculus II",
     "units": 3,
-    "prereqs": null,
-    "verified": false
+    "prereqs": [
+      "PHYS 220",
+      "MATH 227"
+    ],
+    "verified": false,
+    "coreqs": [],
+    "notes": "Source note said 'PHYS && MATH 227'; assumed PHYS 220. Verify."
   },
   "PHYS 232": {
     "title": "General Physics with Calculus II Laboratory",
     "units": 1,
-    "prereqs": null,
-    "verified": false
+    "prereqs": [],
+    "verified": false,
+    "coreqs": [
+      "PHYS 230"
+    ]
   },
   "CSC 101": {
     "title": "Introduction to Computing",
@@ -67,10 +101,7 @@
     "title": "Data Structures",
     "units": 3,
     "prereqs": [
-      [
-        "CSC 210",
-        "CSC 215"
-      ]
+      "CSC 215"
     ],
     "verified": false,
     "coreqs": []
@@ -80,7 +111,6 @@
     "units": 3,
     "prereqs": [
       [
-        "CSC 210",
         "CSC 215",
         "ENGR 213"
       ]
@@ -167,7 +197,7 @@
     "verified": false,
     "coreqs": []
   },
-  "CSC 210": {
+  "ENGR 213": {
     "title": null,
     "units": null,
     "prereqs": null,
@@ -175,7 +205,15 @@
     "in_major": false,
     "verified": false
   },
-  "ENGR 213": {
+  "MATH 198": {
+    "title": null,
+    "units": null,
+    "prereqs": null,
+    "coreqs": [],
+    "in_major": false,
+    "verified": false
+  },
+  "MATH 199": {
     "title": null,
     "units": null,
     "prereqs": null,
