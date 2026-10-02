@@ -1,0 +1,29 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+service-account*.json
+credentials*.json
+
+# Anything real or personal
+samples/real/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+transcripts/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node (if the frontend uses it)
+node_modules/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
